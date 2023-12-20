@@ -1,4 +1,7 @@
 library(readxl)
+library(tidyverse)
+library(rstatix)
+library(ggpubr)
 Usman <- read_excel("C:/Users/Usman Ola/Downloads/ERIOLUWa MAIN DATA.xlsx", 
                     sheet = "Data")
 View(Usman)
